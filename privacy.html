@@ -20,9 +20,9 @@
 
   <main>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective date: 25 September 2026</p>
+    <p class="meta">Effective date: 25 September 2026 (updated 29 October 2026: YouTube)</p>
 
-    <p>This Privacy Policy explains how Manlyeah Publisher ("the tool", "we") collects, uses and protects data. The tool is operated by Manly (@manlyeah), based in Indonesia, and is used only to manage the operator's own Instagram, Threads and TikTok accounts. It is not a public service, and no other users can sign in.</p>
+    <p>This Privacy Policy explains how Manlyeah Publisher ("the tool", "we") collects, uses and protects data. The tool is operated by Manly (@manlyeah), based in Indonesia, and is used only to manage the operator's own Instagram, Threads, TikTok and YouTube accounts. It is not a public service, and no other users can sign in.</p>
 
     <h2>1. Data we collect</h2>
     <h3>From the operator's own accounts (with authorization)</h3>
@@ -30,8 +30,16 @@
       <li>Account ID, username and basic profile information.</li>
       <li>The operator's own posts and their performance metrics, such as views, likes, comments, shares, saves and reach.</li>
       <li>Comments left on the operator's own posts, so the operator can read and reply to them.</li>
-      <li>Access tokens issued by Meta and TikTok, used to call their official APIs on the operator's behalf.</li>
+      <li>Access tokens issued by Meta, TikTok and Google, used to call their official APIs on the operator's behalf.</li>
     </ul>
+    <h3>From the operator's own YouTube channel (read-only, with authorization)</h3>
+    <ul>
+      <li>The channel's ID and name, to confirm the right channel is connected.</li>
+      <li>Performance reports for the channel's own videos from the YouTube Analytics API: views, watch time, the average share of each video that was watched, subscribers gained, shares, traffic sources and the search terms that led to the videos.</li>
+      <li>Viewer statistics only as aggregated totals that YouTube provides, such as the share of views per country. The tool never receives information about individual viewers.</li>
+      <li>Access is read-only (YouTube Analytics and YouTube read-only permissions): the tool cannot upload, change or delete anything on the channel through this connection.</li>
+    </ul>
+    <p>Manlyeah Publisher's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. YouTube data is used only to show the operator how the channel's own videos perform, in a weekly report to the operator. It is never sold and never used for advertising. Access tokens and account credentials are used only to call Google's own APIs and are never shared. The operator can revoke this access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
     <h3>Public content</h3>
     <ul>
       <li>Public Threads posts returned by the official Threads keyword search: post text, publication time and public engagement counts.</li>
@@ -48,11 +56,12 @@
     <p>We do not sell data, we do not use data for advertising, and we do not share data with data brokers.</p>
 
     <h2>3. AI processing</h2>
-    <p>To help write original post drafts, topic summaries and short, anonymized excerpts of public post text may be sent to AI service providers (Google Gemini and OpenRouter). Access tokens, account credentials and private messages are never sent to AI providers. The operator reviews every draft before it is published.</p>
+    <p>To help write original post drafts, topic summaries and short, anonymized excerpts of public post text may be sent to AI service providers (Google Gemini and OpenRouter). To write the operator's weekly performance report, the aggregated numbers of the operator's own posts (for example views, average share watched, traffic sources and search terms) may also be sent to these providers; they contain no data about individual viewers. Access tokens, account credentials and private messages are never sent to AI providers. The operator reviews every draft before it is published.</p>
 
     <h2>4. Service providers</h2>
     <ul>
       <li><strong>Meta Platforms</strong> (Instagram and Threads APIs) and <strong>TikTok</strong> (Login Kit and Content Posting API): to publish content and read metrics.</li>
+      <li><strong>Google (YouTube Data API and YouTube Analytics API)</strong>: reading the performance of the operator's own YouTube channel, read-only.</li>
       <li><strong>Google (Gemini API)</strong> and <strong>OpenRouter</strong>: AI text generation.</li>
       <li><strong>Cloudflare</strong> (R2 storage and Workers): hosting post images at a public web address, which Instagram requires for publishing, and running the publishing schedule.</li>
       <li><strong>Telegram</strong>: sending notifications and approval requests to the operator only.</li>
