@@ -63,14 +63,14 @@
       <li><strong>Meta Platforms</strong> (Instagram and Threads APIs) and <strong>TikTok</strong> (Login Kit and Content Posting API): to publish content and read metrics.</li>
       <li><strong>Google (YouTube Data API and YouTube Analytics API)</strong>: reading the performance of the operator's own YouTube channel, read-only.</li>
       <li><strong>Google (Gemini API)</strong> and <strong>OpenRouter</strong>: AI text generation.</li>
-      <li><strong>Cloudflare</strong> (R2 storage and Workers): hosting post images at a public web address, which Instagram requires for publishing, and running the publishing schedule.</li>
+      <li><strong>GitHub</strong> (GitHub Pages): hosting post images and videos at a public web address, which Instagram and Threads require for publishing. Files are removed after 30 days.</li>
       <li><strong>Telegram</strong>: sending notifications and approval requests to the operator only.</li>
     </ul>
     <p>Each provider processes data under its own privacy policy.</p>
 
     <h2>5. Storage and retention</h2>
     <ul>
-      <li>Data is stored on the operator's own computer and in the operator's own Cloudflare account.</li>
+      <li>Data is stored on the operator's own computer, which also runs the publishing schedule. Post images and videos are additionally placed in the operator's own GitHub Pages repository for publishing and removed after 30 days.</li>
       <li>Access tokens are kept until they expire or the authorization is revoked.</li>
       <li>Metrics for the operator's own posts are kept while the accounts are active.</li>
       <li>Raw public search results are deleted within 30 days. Only aggregated topic statistics, which contain no personal data, are kept.</li>
